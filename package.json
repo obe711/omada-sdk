@@ -1,0 +1,13 @@
+{
+  "name": "omada-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --env-file=.env --watch index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "query-string": "^9.1.0"
+  }
+}
